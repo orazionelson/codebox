@@ -61,7 +61,7 @@
 			
 			var result = document.createElement("ul");
 			
-			buildRec(nodes, result, 2);
+			buildToc(nodes, result, 2);
 
 			$("nav.dynamic").append(result);
 			$("nav.dynamic").each(function(){
